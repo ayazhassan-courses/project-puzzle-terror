@@ -551,7 +551,7 @@ class Puzzle:
         quit()
 
 print('Randomly generated puzzle is:')
-start = randomly_generate("puzzle.csv")
+start = randomly_generate("Puzzles.csv")
 startarray = convert_to_array(start)
 print(np.reshape(start, (3, 3)))
 time.sleep(.8)
